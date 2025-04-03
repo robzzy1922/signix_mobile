@@ -1,0 +1,2 @@
+D:/SEMESTER 4/PROYEK 2/signix_mobile/android/app/.cxx/Debug/ap1y126i/x86/CMakeFiles/edit_cache.dir
+D:/SEMESTER 4/PROYEK 2/signix_mobile/android/app/.cxx/Debug/ap1y126i/x86/CMakeFiles/rebuild_cache.dir

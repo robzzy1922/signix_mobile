@@ -1,0 +1,2 @@
+D:/SEMESTER 4/PROYEK 2/signix_mobile/android/app/.cxx/Debug/ap1y126i/armeabi-v7a/CMakeFiles/edit_cache.dir
+D:/SEMESTER 4/PROYEK 2/signix_mobile/android/app/.cxx/Debug/ap1y126i/armeabi-v7a/CMakeFiles/rebuild_cache.dir
