@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart';
-import 'screens/login_screen.dart';
-import 'screens/ormawa_dashboard.dart';
-// import 'screens/dosen_dashboard.dart';
-// import 'screens/kemahasiswaan_dashboard.dart';
+import 'screens/home_screen.dart';
+import 'screens/login_ormawa.dart';
+import 'screens/login_dosen.dart';
+import 'screens/login_kemahasiswaan.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,25 +10,17 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Signix App',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      title: 'Signix',
       initialRoute: '/',
       routes: {
-        '/': (context) => const SplashScreen(),
-        '/login_ormawa': (context) => const LoginScreen(role: 'ormawa'),
-        '/login_dosen': (context) => const LoginScreen(role: 'dosen'),
-        '/login_kemahasiswaan': (context) =>
-            const LoginScreen(role: 'kemahasiswaan'),
-        '/ormawa_dashboard': (context) => const OrmawaDashboard(),
-        // '/dosen_dashboard': (context) => const DosenDashboard(),
-        // '/kemahasiswaan_dashboard': (context) => const KemahasiswaanDashboard(),
+        '/': (context) => const HomeScreen(),
+        '/login_ormawa': (context) => const LoginOrmawa(),
+        '/login_dosen': (context) => const LoginDosen(),
+        '/login_kemahasiswaan': (context) => const LoginKemahasiswaan(),
       },
     );
   }
